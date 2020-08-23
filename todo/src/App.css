@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.completed {
+  
+  width: 100%;
+  height: 30px;
+  margin: 4px 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: line-through;
+}
+
+.todo.completed {
+  
+  text-decoration: line-through;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
